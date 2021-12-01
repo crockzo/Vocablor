@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+.word-container{
+    display: flex;
+    width: 700px;
+    margin: auto;
+    flex-direction: column;
+}
+.word-card{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items : center;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.word-details{
+    margin-right: 100px;
+}
+.time{
+    font-size: 0.8rem;
+}
+.meaning-text{
+    font-size: 1.2rem;
+}
+
+
+
+.word-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+}
+
+.word-control a{
+    text-decoration: none;
+    color: black;
+    width: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    font: bold;
+}
+
+.word-delete{
+    padding: 4px;
+    background-color: rgba(255, 45, 45, 0.8);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    margin-bottom: 4px;
+}
+
+.word-update{
+    padding: 4px;
+    background-color: rgb(171, 255, 45, 0.8);
+}

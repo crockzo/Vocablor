@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+::placeholder{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.form-div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top : 40px;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.register{
+    border: 2px solid rgb(104, 180, 216);
+    background-color: rgb(202, 95, 95);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+.form-div form{
+    padding : 8px 16px;
+    display: flex;
+    letter-spacing: 1px;
+    border: 1px solid rgb(122, 126, 122);
+    border-radius: 2px;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-fields{
+    margin : 8px 0px;
+}
+.form-fields label{
+    display: block;
+    margin: 4px 0px;
+    font-size: 1rem;
+}
+
+.form-field-4{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+.form-field-4 label{
+    display: inline;
+    
+    margin-top: 5px;
+}
+
+input{
+    font-weight: 4;
+    padding: 4px;
+}
+.gender-option{
+    display: inline;
+}
+
+.form-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+    justify-content: space-around;
+}
+
+.form-buttons button{
+    padding : 8px 8px;
+    background-color: rgb(1, 129, 1, 0.3);
+    border: 4px solid green;
+    border-radius: 4px;
+    font-size: 1rem;
+}

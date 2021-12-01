@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.form-div{
+    display: flex;
+    margin-top : 40px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.login{
+    border: 2px solid rgb(104, 180, 216);
+    /* background-color: rgb(202, 95, 95); */
+    background-color: rgb(81, 148, 211);
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+.form-div form{
+    padding : 8px 16px;
+    display: flex;
+    letter-spacing: 1px;
+    background-color: rgb(134, 128, 128, 0.1);
+    border: 1px solid rgb(122, 126, 122);
+    border-radius: 2px;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-fields{
+    margin : 8px 0px;
+}
+.form-fields label{
+    display: block;
+    margin: 4px 0px;
+    font-size: 1rem;
+}
+
+input{
+    font-weight: 4;
+    padding: 4px;
+}
+.form-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+    justify-content: space-around;
+}
+
+.form-buttons button{
+    padding : 8px 8px;
+    
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submit-btn{
+    background-color: rgb(103, 228, 103);
+    border: 4px solid rgb(103, 228, 103);
+}
+
+.reset-btn{
+    background-color: rgb(228, 128, 103);
+    border: 4px solid rgb(228, 128, 103);
+}
+
+.fg-ps{
+    margin: 8px 0px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
